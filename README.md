@@ -5,14 +5,14 @@ This repository includes code generated during my PhD time. Includes scripts for
 All the software needed to run the genome-resolved metagenomics workflow can be installed via the conda package manager. Databases have to be installed separately based on the program used, and the path to the database should be updated accordingly in the scripts.
 
 ### Install conda packages
-'''
+```
 conda install mamba #mamba is faster than conda
 
-### for example, metawrap can be installed using mamba
+# for example, metawrap can be installed using mamba
 mamba create -y --name metawrap-env --channel ursky metawrap-mg=1.3.2
 conda activate metawrap-env
 
-'''
+```
 
 ## Example dataset
 For testing the workflow, I have used the Zymo mock community from the following publication.
