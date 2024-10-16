@@ -11,9 +11,7 @@ conda install mamba #mamba is faster than conda
 # for example, metawrap can be installed using mamba
 mamba create -y --name metawrap-env --channel ursky metawrap-mg=1.3.2
 conda activate metawrap-env
-
 ```
-
 ## Example dataset
 For testing the workflow, I have used the Zymo mock community from the following publication.
 
