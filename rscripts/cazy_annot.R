@@ -29,8 +29,7 @@ for (seq_num in 1:length(dfs)){
 ## Sort to figure out the top GHs 
 abund_df <- GH_sub_df %>% group_by(V2) %>% summarise(sum = sum(V3, na.rm = T))
 abund_df <- abund_df %>% arrange(desc(sum))
-# An example
-top_list <- abund_df$V2[1:30] # Change if want more
+top_list <- abund_df$V2[1:30]
 
 genera_sel <- unique(GH_sub_df$V1)
 df_heatmap <- NULL
