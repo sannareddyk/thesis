@@ -1,4 +1,4 @@
-setwd('/mnt/mibi_ngs/keerthi/berenike_substrates/assembly_allsubstrates_bin_substrate/all_samples_bins/CAZy_fam_new/')
+setwd('/xx/assembly_allsubstrates_bin_substrate/all_samples_bins/CAZy_fam_new/')
 cazyme_data<-read.delim(file='CAZyabundances.txt',sep = '\t', header = F)
 cazyme_data<-cazyme_data[,-4]
 
